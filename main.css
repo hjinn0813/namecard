@@ -1,0 +1,118 @@
+body {
+  color: #333;
+  line-height: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #EEE;
+  background-image: url("https://heropy.blog/css/images/pattern.png");
+  display: inline-flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.form {
+  width: 400px;
+  box-sizing: border-box;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.07);
+  background-color: #FFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  word-break: keep-all;
+  padding-bottom: 10px;
+}
+.form input {
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.form .btn {
+  cursor: pointer;
+  background-color: #FFA32D;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  margin-top: 24px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #FFF;
+  box-shadow: 0 4px 0 #d67c06;
+  transition: 0.1s;
+  border-radius: 6px;
+  border: 0px solid #FFA32D;
+}
+.btn:active {
+  box-shadow: 0 2px 0 #d67c06;
+  transform: translateY(4px);
+}
+
+
+.card {
+  box-sizing: border-box;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.07);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 400px;
+  height: 240px;
+  background-color: #FFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+}
+.card.show {
+  display: flex;
+  justify-content: left;
+}
+.card .photo {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+.card .name {
+  letter-spacing: 4px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.card .title,
+.card .phone,
+.card .email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.card .material-symbols-outlined {
+  margin-right: 8px;
+  font-size: 18px;
+}
